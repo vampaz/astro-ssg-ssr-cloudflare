@@ -90,16 +90,16 @@ Rename your file to \`[...page].astro\` or customize the param name via the \`pa
 	<body>
 		${It(e,r.default)}
 	
-</body></html>`}),jD=Lc("/Volumes/data/works/astro-ssg-ssr-cloudflare/src/ssr/pages/ssr.astro","https://conekto.eu/","file:///Volumes/data/works/astro-ssg-ssr-cloudflare/"),du=tu(async(e,t,r)=>{let n=e.createAstro(jD,t,r);n.self=du;let i=JSON.stringify(n.request,null,2);return Ur`${zr(e,"Layout",fu,{title:"Welcome to Astro.",class:"astro-6SFKII6P"},{default:()=>Ur`${Qc(e)}<main class="astro-6SFKII6P">
-		<h1 class="astro-6SFKII6P">Welcome to <span class="text-gradient astro-6SFKII6P">Astro</span></h1>
-		<p class="instructions astro-6SFKII6P">
-			This is a SSR page. You can edit this file in <code class="astro-6SFKII6P">src/ssr/pages/ssr.astro</code>.
+</body></html>`}),jD=Lc("/Volumes/data/works/astro-ssg-ssr-cloudflare/src/ssr/pages/ssr.astro","https://conekto.eu/","file:///Volumes/data/works/astro-ssg-ssr-cloudflare/"),du=tu(async(e,t,r)=>{let n=e.createAstro(jD,t,r);n.self=du;let i=JSON.stringify(n.request,null,2);return Ur`${zr(e,"Layout",fu,{title:"Welcome to Astro.",class:"astro-WKNA6DRY"},{default:()=>Ur`${Qc(e)}<main class="astro-WKNA6DRY">
+		<h1 class="astro-WKNA6DRY">Welcome to <span class="text-gradient astro-WKNA6DRY">Astro</span></h1>
+		<p class="instructions astro-WKNA6DRY">
+			This is a SSR page. You can edit this file in <code class="astro-WKNA6DRY">src/ssr/pages/ssr.astro</code>.
 		</p>
 
-		<pre class="astro-6SFKII6P">${i}</pre>
+		<pre class="astro-WKNA6DRY">${i}</pre>
 	</main>`})}
 
-`}),MD="/Volumes/data/works/astro-ssg-ssr-cloudflare/src/ssr/pages/ssr.astro",ID="/ssr",LD=Object.freeze(Object.defineProperty({__proto__:null,default:du,file:MD,url:ID},Symbol.toStringTag,{value:"Module"})),UD=new Map([["src/ssr/pages/ssr.astro",LD]]),HD=[Object.assign({name:"astro:jsx",serverEntrypoint:"astro/jsx/server.js",jsxImportSource:"astro"},{ssr:VD}),Object.assign({name:"@astrojs/vue",clientEntrypoint:"@astrojs/vue/client.js",serverEntrypoint:"@astrojs/vue/server.js"},{ssr:BD})],Du=Object.assign(ND({adapterName:"@astrojs/cloudflare",routes:[{file:"",links:["assets/ssr.f38cea72.css"],scripts:[],routeData:{route:"/ssr",type:"page",pattern:"^\\/ssr\\/?$",segments:[[{content:"ssr",dynamic:!1,spread:!1}]],params:[],component:"src/ssr/pages/ssr.astro",pathname:"/ssr",_meta:{trailingSlash:"ignore"}}}],site:"https://conekto.eu/",base:"/",markdown:{drafts:!1,syntaxHighlight:"shiki",shikiConfig:{langs:[],theme:"github-dark",wrap:!1},remarkPlugins:[],rehypePlugins:[],remarkRehype:{},extendDefaultPlugins:!1,isAstroFlavoredMd:!1},pageMap:null,renderers:[],entryModules:{"\0@astrojs-ssr-virtual-entry":"_worker.js","@astrojs/vue/client.js":"client.ddfd679e.js","astro:scripts/before-hydration.js":""},assets:["/assets/ssr.f38cea72.css","/_routes.json","/client.ddfd679e.js","/favicon.svg","/$server_build/assets/ssr.f38cea72.css"]}),{pageMap:UD,renderers:HD}),zD=void 0,WD=lu(Du),fh=WD.onRequest,Pc="start";Pc in Rc&&Rc[Pc](Du,zD);export{fh as onRequest};
+`}),MD="/Volumes/data/works/astro-ssg-ssr-cloudflare/src/ssr/pages/ssr.astro",ID="/ssr",LD=Object.freeze(Object.defineProperty({__proto__:null,default:du,file:MD,url:ID},Symbol.toStringTag,{value:"Module"})),UD=new Map([["src/ssr/pages/ssr.astro",LD]]),HD=[Object.assign({name:"astro:jsx",serverEntrypoint:"astro/jsx/server.js",jsxImportSource:"astro"},{ssr:VD}),Object.assign({name:"@astrojs/vue",clientEntrypoint:"@astrojs/vue/client.js",serverEntrypoint:"@astrojs/vue/server.js"},{ssr:BD})],Du=Object.assign(ND({adapterName:"@astrojs/cloudflare",routes:[{file:"",links:["assets/ssr.f685c5f8.css"],scripts:[],routeData:{route:"/ssr",type:"page",pattern:"^\\/ssr\\/?$",segments:[[{content:"ssr",dynamic:!1,spread:!1}]],params:[],component:"src/ssr/pages/ssr.astro",pathname:"/ssr",_meta:{trailingSlash:"ignore"}}}],site:"https://conekto.eu/",base:"/",markdown:{drafts:!1,syntaxHighlight:"shiki",shikiConfig:{langs:[],theme:"github-dark",wrap:!1},remarkPlugins:[],rehypePlugins:[],remarkRehype:{},extendDefaultPlugins:!1,isAstroFlavoredMd:!1},pageMap:null,renderers:[],entryModules:{"\0@astrojs-ssr-virtual-entry":"_worker.js","@astrojs/vue/client.js":"client.ddfd679e.js","astro:scripts/before-hydration.js":""},assets:["/assets/ssr.f685c5f8.css","/_routes.json","/client.ddfd679e.js","/favicon.svg","/$server_build/assets/ssr.f685c5f8.css"]}),{pageMap:UD,renderers:HD}),zD=void 0,WD=lu(Du),fh=WD.onRequest,Pc="start";Pc in Rc&&Rc[Pc](Du,zD);export{fh as onRequest};
 /*!
  * cookie
  * Copyright(c) 2012-2014 Roman Shtylman
