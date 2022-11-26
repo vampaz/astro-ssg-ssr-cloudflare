@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # editor files
 .vscode/
+
+
+/functions/[[path]].js
