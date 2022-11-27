@@ -3,9 +3,9 @@ import Layout from '../../layouts/Layout.astro'
 
 const { cf } = Astro.request
 
-const reqJ = JSON.stringify(cf, null, 2)
+const IP = Astro.request.headers.get('CF-Connecting-IP')
 
-console.log('REQ-CompDate', cf)
+const reqJ = JSON.stringify(cf, null, 2)
 
 const fu = new Date().toLocaleString()
 ---
@@ -19,6 +19,8 @@ const fu = new Date().toLocaleString()
 			>.
 			{fu}
 		</p>
+
+		<h1>IP: {IP}</h1>
 
 		<pre>{reqJ}</pre>
 	</main>
