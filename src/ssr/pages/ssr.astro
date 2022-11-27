@@ -2,13 +2,17 @@
 // import { getRuntime } from '@astrojs/cloudflare/runtime'
 import Layout from '../../layouts/Layout.astro'
 
-const req = JSON.stringify(Astro.request, null, 2)
+const req = Astro.request
+
+const reqJ = JSON.stringify(req null, 2)
+
+
 
 // const rt = getRuntime(Astro.request)
 
 // console.log('RT', rt)
 
-console.log('REQ-CompDate', req)
+console.log('REQ-CompDate', reqJ)
 
 const fu = new Date().toLocaleString()
 ---
