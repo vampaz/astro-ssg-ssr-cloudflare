@@ -1,7 +1,13 @@
 ---
 import Layout from '../../layouts/Layout.astro'
-import Card from '../../components/Card.astro'
-const req = JSON.stringify(Astro.request, null, 2)
+
+const { cf } = Astro.request
+
+const reqJ = JSON.stringify(cf, null, 2)
+
+console.log('REQ-CompDate', cf)
+
+const fu = new Date().toLocaleString()
 ---
 
 <Layout title="Welcome to Astro.">
@@ -11,9 +17,10 @@ const req = JSON.stringify(Astro.request, null, 2)
 			This is a SSR page. You can edit this file in <code
 				>src/ssr/pages/ssr.astro</code
 			>.
+			{fu}
 		</p>
 
-		<pre>{req}</pre>
+		<pre>{reqJ}</pre>
 	</main>
 </Layout>
 
