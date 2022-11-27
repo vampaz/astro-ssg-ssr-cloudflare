@@ -11,16 +11,14 @@
 		"preview": "wrangler pages dev --port=4000 ./dist",
 		"watch": "chokidar './src/**/*' './public' -c 'npm run build'"
 	},
-	"dependencies": {
-		"astro": "^1.6.11"
-	},
 	"devDependencies": {
 		"@astrojs/vue": "^1.2.1",
 		"@astrojs/cloudflare": "^4.1.0",
 		"wrangler": "^2.4.4",
 		"prettier": "^2.8.0",
 		"prettier-plugin-astro": "^0.7.0",
-		"chokidar-cli": "^3.0.0"
+		"chokidar-cli": "^3.0.0",
+		"astro": "^1.6.11"
 	},
 	"prettier": {
 		"trailingComma": "es5",
