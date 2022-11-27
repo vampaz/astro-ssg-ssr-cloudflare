@@ -1,8 +1,14 @@
 ---
+// import { getRuntime } from '@astrojs/cloudflare/runtime'
 import Layout from '../../layouts/Layout.astro'
 
 const req = JSON.stringify(Astro.request, null, 2)
-console.log('Astro.request', Astro.request)
+
+// const rt = getRuntime(Astro.request)
+
+// console.log('RT', rt)
+
+console.log('REQ', req)
 
 const fu = new Date().toLocaleString()
 ---
