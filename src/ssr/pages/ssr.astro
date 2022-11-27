@@ -4,13 +4,13 @@ import Layout from '../../layouts/Layout.astro'
 
 const req = Astro.request
 
-const reqJ = JSON.stringify(req, null, 2)
+const reqJ = JSON.stringify(req.cf, null, 2)
 
 // const rt = getRuntime(Astro.request)
 
 // console.log('RT', rt)
 
-console.log('REQ-CompDate', req.cf)
+console.log('REQ-CompDate', req)
 
 const fu = new Date().toLocaleString()
 ---
