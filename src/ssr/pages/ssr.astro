@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro'
 
 const req = JSON.stringify(Astro.request, null, 2)
+console.log('Astro.request', Astro.request)
 
 const fu = new Date().toLocaleString()
 ---
