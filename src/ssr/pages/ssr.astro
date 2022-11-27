@@ -4,15 +4,13 @@ import Layout from '../../layouts/Layout.astro'
 
 const req = Astro.request
 
-const reqJ = JSON.stringify(req null, 2)
-
-
+const reqJ = JSON.stringify(req, null, 2)
 
 // const rt = getRuntime(Astro.request)
 
 // console.log('RT', rt)
 
-console.log('REQ-CompDate', reqJ)
+console.log('REQ-CompDate', req)
 
 const fu = new Date().toLocaleString()
 ---
@@ -27,7 +25,7 @@ const fu = new Date().toLocaleString()
 			{fu}
 		</p>
 
-		<pre>{req}</pre>
+		<pre>{reqJ}</pre>
 	</main>
 </Layout>
 
