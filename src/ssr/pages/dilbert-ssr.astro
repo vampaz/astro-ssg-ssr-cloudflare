@@ -3,7 +3,6 @@ import Layout from '../../layouts/Layout.astro'
 
 const response = await fetch('https://dilbert.conekto.workers.dev')
 const data = await response.json()
-const fu = new Date().toLocaleString()
 ---
 
 <Layout title="Dilbert SSR">
@@ -11,7 +10,6 @@ const fu = new Date().toLocaleString()
 		<h3>{data.alt}</h3>
 		<img src={data.src} alt={data.alt} />
 		<a href={data.url} title={data.url} target="_blank">{data.url}</a>
-		{fu}
 	</div>
 </Layout>
 
