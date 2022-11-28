@@ -10,7 +10,7 @@
 		"build-ssr": "astro build --config astro.config.ssr.mjs",
 		"build": "npm run build-ssg && npm run build-ssr && rsync -a dist-ssr/ dist/",
 		"prepreview": "npm run build",
-		"preview": "wrangler pages dev --port=4000 ./dist",
+		"preview": "wrangler pages dev --port=3000 ./dist",
 		"watch": "chokidar './src/**/*' './public' -c 'npm run build'"
 	},
 	"dependencies": {
