@@ -1,5 +1,5 @@
 {
 	"version": 1,
-	"include": ["/ssr/*", "/dilbert-ssr/*"],
+	"include": ["/ssr/*", "/dilbert-ssr/*", "/api/*"],
 	"exclude": []
 }
