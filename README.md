@@ -1,7 +1,7 @@
 # Welcome to [Astro](https://astro.build) SSG and SSR hybrid pattern
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vampaz/astro-ssg-ssr-cloudflare/tree/latest/)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/vampaz/astro-ssg-ssr-cloudflare/tree/latest/)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vampaz/astro-ssg-ssr-cloudflare)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/vampaz/astro-ssg-ssr-cloudflare)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
