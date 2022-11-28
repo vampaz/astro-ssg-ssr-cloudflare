@@ -4,7 +4,9 @@ export async function onRequestGet(context) {
 
 	const IP = request.headers.get('CF-Connecting-IP')
 
-	return new Response(JSON.stringify({ IP, ...request }, null, 2), {
+	const { cf } = request
+
+	return new Response(JSON.stringify({ IP, cf }, null, 2), {
 		headers: { 'content-type': 'application/json' },
 	})
 }
