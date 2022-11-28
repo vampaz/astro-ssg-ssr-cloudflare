@@ -1,7 +1,4 @@
-// https://developers.cloudflare.com/pages/platform/functions/get-started/
-export async function onRequestGet(context) {
-	const { request } = context
-
+export async function get({ params, request }) {
 	const IP = request.headers.get('CF-Connecting-IP')
 
 	return new Response(JSON.stringify({ IP, request }, null, 2), {
