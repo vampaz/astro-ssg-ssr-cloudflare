@@ -4,6 +4,8 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
+		"dev-ssg": "astro dev --config astro.config.ssg.mjs",
+		"dev-ssr": "astro dev --config astro.config.ssr.mjs",
 		"build-ssg": "astro build --config astro.config.ssg.mjs",
 		"build-ssr": "astro build --config astro.config.ssr.mjs",
 		"build": "npm run build-ssg && npm run build-ssr && rsync -a dist-ssr/ dist/",

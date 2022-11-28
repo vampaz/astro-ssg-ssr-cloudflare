@@ -1,11 +1,11 @@
-import vue from '@astrojs/vue'
 import { defineConfig } from 'astro/config'
 import cloudflare from '@astrojs/cloudflare'
-import AstroConfigBase from './astro.config.base.mjs'
+import { site, server, integrations } from './astro.config.base.mjs'
 
 export default defineConfig({
-	site: AstroConfigBase.site,
-	integrations: [vue()],
+	site,
+	server,
+	integrations,
 	srcDir: './src/ssr',
 	output: 'server',
 	adapter: cloudflare({ mode: 'directory' }),
