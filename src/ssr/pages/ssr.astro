@@ -23,8 +23,10 @@ const now = new Date().toLocaleString()
 
 		<h2>IP: {IP}</h2>
 
-		Vue counter starts with your postal code
-		<VueCounter count={cf.postalCode} client:load />
+		<h3>
+			Vue counter starts with your postal code 😗
+			<VueCounter count={cf.postalCode} client:load />
+		</h3>
 
 		<pre>{reqJSON}</pre>
 	</main>
