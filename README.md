@@ -2,7 +2,7 @@
 
 Deploys an hybrid build to Cloudflare Pages allowing full content generation control
 
-## Why
+## ❓ Why
 
 - Deploying a full SSR website isn't always optimal
 - SSG is faster, cheaper, greener, and more reliable.
@@ -10,7 +10,7 @@ Deploys an hybrid build to Cloudflare Pages allowing full content generation con
 - Cloudflare [recommends](https://developers.cloudflare.com/pages/platform/functions/routing/#function-invocation-routes) the pattern
 - Because Astro is abstract enough and we can
 
-## How
+## 🧨 How
 
 Build Astro with both targets and merge the result
 
