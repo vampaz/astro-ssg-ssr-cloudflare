@@ -1,0 +1,14 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import VueCounter from '../../components/Vue-counter.vue'
+---
+
+<Layout title="Vue component SSG">
+	<h1>Vue component</h1>
+
+	<h3>Client client:load</h3>
+	<VueCounter client:load />
+
+	<h3>Client client:only</h3>
+	<VueCounter client:only="vue" />
+</Layout>

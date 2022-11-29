@@ -7,7 +7,7 @@ const IP = Astro.request.headers.get('CF-Connecting-IP')
 
 const reqJ = JSON.stringify(cf, null, 2)
 
-const fu = new Date().toLocaleString()
+const now = new Date().toLocaleString()
 ---
 
 <Layout title="Welcome to Astro.">
@@ -17,7 +17,7 @@ const fu = new Date().toLocaleString()
 			This is a SSR page. You can edit this file in <code
 				>src/ssr/pages/ssr.astro</code
 			>.
-			{fu}
+			{now}
 		</p>
 
 		<h2>IP: {IP}</h2>
