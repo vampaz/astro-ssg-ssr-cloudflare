@@ -1,18 +1,24 @@
-# Welcome to [Astro](https://astro.build) SSG and SSR hybrid pattern
+# Welcome to [Astro](https://astro.build) SSG and SSR hybrid pattern for Cloudflare
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vampaz/astro-ssg-ssr-cloudflare)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/vampaz/astro-ssg-ssr-cloudflare)
+Deploys an hybrid build to Cloudflare Pages allowing full content generation control
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Why
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+- Deploying a full SSR website isn't always optimal
+- SSG is faster, cheaper, greener, and more reliable.
+- SSR is sometimes required
+- Cloudflare [recommends](https://developers.cloudflare.com/pages/platform/functions/routing/#function-invocation-routes) the pattern
+- Because Astro is abstract enough and we can
+
+## How
+
+Build Astro with both targets and merge the result
 
 ## 🚀 Project Structure
 
 Inside of this Astro project, you'll see the following folders and files:
 
 ```
-/
 ├── public/
 │   └── favicon.svg
 │   └── _routes.json
@@ -30,6 +36,7 @@ Inside of this Astro project, you'll see the following folders and files:
 ├── package.json
 ├── astro.config.base.mjs
 ├── astro.config.ssg.mjs
+├── astro.config.ssr.mjs
 └── astro.config.ssr.mjs
 ```
 
@@ -46,6 +53,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview` | Preview your full build locally with Wrangler   |
 | `npm run watch`   | Update build for preview                        |
 
-## 👀 Want to learn more?
+## 👀 See it running
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+[Demo](https://astro-ssg-ssr-cloudflare.pages.dev/)
+Dilbert is rendered on the server

@@ -5,19 +5,10 @@ import Card from '../../components/Card.astro'
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br
-			/>
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-
+		<h1>Welcome to <span class="text-gradient">Astro SSG/SSR</span></h1>
 		<ul role="list" class="link-card-grid">
-			<Card
-				href="ssr"
-				title="This page is Server-Side Rendered"
-				body="Learn how Astro can mix ssg and ssr pages in your project."
-			/>
+			<Card href="readme" title="Readme" body="SSG Readme" />
+			<Card href="ssr" title="SSR page" body="Renders request data" />
 			<Card
 				href="dilbert-ssr"
 				title="Dilbert SSR"
@@ -25,40 +16,24 @@ import Card from '../../components/Card.astro'
 			/>
 
 			<Card
+				href="astro-api/request-details"
+				title="Astro request details"
+				body="Endpoint WITH Astro"
+			/>
+
+			<Card
 				href="api/request-details"
 				title="Request details"
-				body="Request details endpoint WITHOUT Astro"
-			/>
-
-			<Card
-				href="astro-api/request-details"
-				title="Astro Request details"
-				body="Request details endpoint WITH Astro"
+				body="Endpoint WITHOUT Astro, a plain Cloudflare Worker"
 			/>
 		</ul>
 
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
+		<p>
+			<a
+				href="https://github.com/vampaz/astro-ssg-ssr-cloudflare"
+				title="Github repository">Github</a
+			>
+		</p>
 	</main>
 </Layout>
 
@@ -66,7 +41,7 @@ import Card from '../../components/Card.astro'
 	main {
 		margin: auto;
 		padding: 1.5rem;
-		max-width: 60ch;
+		max-width: 80ch;
 	}
 	h1 {
 		font-size: 3rem;
