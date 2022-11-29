@@ -56,4 +56,3 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 See it running
 
 [Demo](https://astro-ssg-ssr-cloudflare.pages.dev/)
-Dilbert is rendered on the server
