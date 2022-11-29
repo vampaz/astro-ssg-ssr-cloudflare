@@ -1,11 +1,12 @@
 ---
 import Layout from '../../layouts/Layout.astro'
+import VueCounter from '../../components/Vue-counter.vue'
 
 const { cf } = Astro.request
 
 const IP = Astro.request.headers.get('CF-Connecting-IP')
 
-const reqJ = JSON.stringify(cf, null, 2)
+const reqJSON = JSON.stringify(cf, null, 2)
 
 const now = new Date().toLocaleString()
 ---
@@ -22,7 +23,10 @@ const now = new Date().toLocaleString()
 
 		<h2>IP: {IP}</h2>
 
-		<pre>{reqJ}</pre>
+		Vue counter starts with your postal code
+		<VueCounter count={cf.postalCode} client:load />
+
+		<pre>{reqJSON}</pre>
 	</main>
 </Layout>
 

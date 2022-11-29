@@ -6,8 +6,15 @@
 </template>
 
 <script setup>
-import { reactive, onBeforeMount } from 'vue'
-const state = reactive({ count: 1 })
+import { reactive, defineProps } from 'vue'
+const props = defineProps({
+	count: {
+		type: Number,
+		default: 0,
+	},
+})
+
+const state = reactive(props)
 
 function increment() {
 	state.count++
