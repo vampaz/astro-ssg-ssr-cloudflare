@@ -1,4 +1,8 @@
-# Welcome to [Astro](https://astro.build) SSG and SSR hybrid pattern for Cloudflare
+# This pattern isn't needed since [Astro now supports prerendering ](https://docs.astro.build/en/guides/server-side-rendering/#hybrid-rendering) 
+
+
+
+## Welcome to [Astro](https://astro.build) SSG and SSR hybrid pattern for Cloudflare
 
 Deploys an hybrid build to Cloudflare Pages allowing full content generation control
 
